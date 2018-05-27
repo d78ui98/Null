@@ -8,8 +8,10 @@ msfconsole
 
 ---
 
+#this performs a ping scan. It is also called no port scan. -vv increases verbosity
 db_nmap -sn 192.168.1.1/24 -vv
 hosts
+#this scans allows OS detection
 db_nmap -A 192.168.1.101 -vv
 services
 
